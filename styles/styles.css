@@ -1,0 +1,65 @@
+#container{
+    position: absolute;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    background-color: black;
+}
+
+#background{
+    position: absolute;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    right: 100px;
+    margin-top: 60px;
+    background-color: purple;
+}
+
+#frog{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-image: url(/images/0frog.png);
+}
+
+#glasses{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+
+#shoes{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+
+#extra{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+
+/* GLASSES STYLE */
+
+.glasses1{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-image: url(/images/0glass1.png);
+}
+
+.glasses2{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-image: url(/images/0glass2.png);
+}
+
+.glasses3{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-image: url(/images/0glass3.png);
+}
