@@ -44,29 +44,27 @@
 }
 
 /* GLASSES STYLE */
-
-#glasses1 {
+#glasses-variants {
   position: absolute;
   top: 0%;
-  left: 100%;
+  left: 0%;
+  margin-left: 100%;
+  display: flex;
+}
+#glasses1 {
+  top: 0%;
   width: 350px;
   height: 350px;
   background-image: url(/images/0glass1.png);
 }
 
 #glasses2 {
-  position: absolute;
-  top: 0%;
-  left: 200%;
   width: 350px;
   height: 350px;
   background-image: url(/images/0glass2.png);
 }
 
 #glasses3 {
-  position: absolute;
-  top: 0%;
-  left: 300%;
   width: 350px;
   height: 350px;
   background-image: url(/images/0glass3.png);
