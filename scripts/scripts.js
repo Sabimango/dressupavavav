@@ -13,3 +13,6 @@ function nextGlasses() {
     document.getElementById("glasses-variants").style.transition = "all 2000ms";
   }
 }
+
+/* to hide */
+/*document.getElementById("glasses-variants").style.visibility="hidden";*/
