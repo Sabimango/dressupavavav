@@ -10,5 +10,6 @@ function nextGlasses() {
     currentActive = 0;
   } else {
     currentActive++;
+    document.getElementById("glasses-variants").style.transition = "all 2000ms";
   }
 }

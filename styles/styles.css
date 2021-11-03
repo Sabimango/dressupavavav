@@ -51,11 +51,14 @@
   margin-left: 100%;
   display: flex;
 }
+
+
 #glasses1 {
   top: 0%;
   width: 350px;
   height: 350px;
   background-image: url(/images/0glass1.png);
+
 }
 
 #glasses2 {
