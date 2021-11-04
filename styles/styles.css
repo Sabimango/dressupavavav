@@ -16,13 +16,12 @@
   background-color: purple;
 }
 
-#frog {
+#character {
   position: absolute;
   top: 0%;
   left: 0%;
   width: 350px;
   height: 350px;
-  background-image: url(/images/0frog.png);
 }
 
 #glasses {
@@ -52,23 +51,23 @@
   display: flex;
 }
 
-
 #glasses1 {
   top: 0%;
   width: 350px;
   height: 350px;
-  background-image: url(/images/0glass1.png);
-
 }
 
 #glasses2 {
   width: 350px;
   height: 350px;
-  background-image: url(/images/0glass2.png);
 }
 
 #glasses3 {
   width: 350px;
   height: 350px;
-  background-image: url(/images/0glass3.png);
+}
+
+#results {
+    color: white;
+    
 }

@@ -5,11 +5,21 @@ var rightAnswer = document.getElementById("glasses2");
 var makeGlasses = [
 {
     imgURL: ["images/0glass1.png", "images/0glass2.png", "images/0glass3.png"],
-    frogURL: ["images/0frog.png"],
+    charaURL: "images/0frog.png",
     answer: "glasses2",
+},
+{
+    imgURL: ["sssss"]
 }
 ];
 
+function displayGlasses(){
+    for (var i = 1; i <= 3; i++ ) {
+        document.getElementById("glasses" + i).style.background = `url(${makeGlasses[0].imgURL[i - 1]})`;
+    }
+
+    document.getElementById("character").style.background = `url(${makeGlasses[0].charaURL})`;
+}
 
 function nextGlasses() {
     
@@ -35,6 +45,7 @@ function nextGlasses() {
  
 }
 
+displayGlasses();
 nextGlasses();
 
 function checkAnswer() {
@@ -44,3 +55,6 @@ function checkAnswer() {
       resultBox.innerHTML = "Wrong Answer";
     }
   }
+
+
+  /* koppla array till submit button */
