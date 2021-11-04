@@ -1,12 +1,15 @@
 var glassPos = [0, 100, 200, 300];
 var currentActive = 0;
+var resultBox = document.getElementById("results");
+var rightAnswer = document.getElementById("glasses2");
 var makeGlasses = [
 {
     imgURL: ["images/0glass1.png", "images/0glass2.png", "images/0glass3.png"],
     frogURL: ["images/0frog.png"],
-    answer: 2,
+    answer: "glasses2",
 }
 ];
+
 
 function nextGlasses() {
     
@@ -33,3 +36,11 @@ function nextGlasses() {
 }
 
 nextGlasses();
+
+function checkAnswer() {
+    if (rightAnswer.checked) {
+      resultBox.innerHTML = "Correct Answer";
+    } else {
+      resultBox.innerHTML = "Wrong Answer";
+    }
+  }
