@@ -2,6 +2,15 @@ var glassPos = [0, 100, 200, 300];
 var currentActive = 0;
 
 function nextGlasses() {
+    
+        for (var i = 1; i <= 3; i++) {
+          document.getElementById("glasses" + i).style.visibility = "hidden";
+        }
+        if (currentActive != 0) {
+        document.getElementById("glasses" + currentActive).style.visibility =
+          "visible";
+      }
+
   console.log(glassPos[currentActive]);
   document.getElementById("glasses-variants").style.left =
     -glassPos[currentActive] + "%";
@@ -12,7 +21,8 @@ function nextGlasses() {
     currentActive++;
     document.getElementById("glasses-variants").style.transition = "all 2000ms";
   }
+
+ 
 }
 
-/* to hide */
-/*document.getElementById("glasses-variants").style.visibility="hidden";*/
+nextGlasses();
