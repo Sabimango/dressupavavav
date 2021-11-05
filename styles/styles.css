@@ -49,6 +49,7 @@
   left: 0%;
   margin-left: 100%;
   display: flex;
+  transition: all 2000ms;
 }
 
 #glasses1 {
