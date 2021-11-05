@@ -9,7 +9,7 @@ var makeGlasses = [
     answer: "glasses2",
 },
 {
-    imgURL: ["sssss"]
+    imgURL: ["placeholder"]
 }
 ];
 
