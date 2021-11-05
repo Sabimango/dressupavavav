@@ -1,8 +1,7 @@
-var glassPos = [0, 100, 200, 300];
-var currentActive = 0;
-var resultBox = document.getElementById("results");
-var rightAnswer = document.getElementById("glasses2");
-var makeGlasses = [
+let currentActive = 0;
+const glassPos = [0, 100, 200, 300];
+const resultBox = document.getElementById("results");
+const makeGlasses = [
 {
     imgURL: ["images/0glass1.png", "images/0glass2.png", "images/0glass3.png"],
     charaURL: "images/0frog.png",
@@ -14,7 +13,7 @@ var makeGlasses = [
 ];
 
 function displayGlasses(){
-    for (var i = 1; i <= 3; i++ ) {
+    for (let i = 1; i <= 3; i++ ) {
         document.getElementById("glasses" + i).style.background = `url(${makeGlasses[0].imgURL[i - 1]})`;
     }
 
@@ -23,7 +22,7 @@ function displayGlasses(){
 
 function nextGlasses() {
     
-        for (var i = 1; i <= 3; i++) {
+        for (let i = 1; i <= 3; i++) {
           document.getElementById("glasses" + i).style.visibility = "hidden";
         }
         if (currentActive != 0) {
@@ -57,4 +56,6 @@ function checkAnswer() {
   }
 
 
-  /* koppla array till submit button */
+
+
+  /* rightanswer ska vara en boolean som sätts till true när man klickar på rätta svaret */
